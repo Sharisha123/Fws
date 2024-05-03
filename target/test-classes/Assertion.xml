@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Assertions">
+	<test name="soft and hard assertion" >
+		<classes>
+			<class name="Testng.SoftAssertions"/>
+			<class name="Testng.HardAssertion"/>
+		
+		
+		</classes>
+	</test>
+</suite>

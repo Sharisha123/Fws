@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parellel]">
+  <test thread-count="5" name="parellel test(failed)">
+    <classes>
+      <class name="Testng.parallel2">
+        <methods>
+          <include name="orghrm"/>
+        </methods>
+      </class> <!-- Testng.parallel2 -->
+    </classes>
+  </test> <!-- parellel test(failed) -->
+</suite> <!-- Failed suite [parellel] -->

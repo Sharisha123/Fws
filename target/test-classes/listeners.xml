@@ -1,0 +1,7 @@
+<suite name="listeners">
+	<test name="listenertest">
+		<classes>
+			<class name="Testng.Listeners_Practice"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assertions]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="soft and hard assertion(failed)">
+    <classes>
+      <class name="Testng.HardAssertion">
+        <methods>
+          <include name="assertionDemo1"/>
+        </methods>
+      </class> <!-- Testng.HardAssertion -->
+      <class name="Testng.SoftAssertions">
+        <methods>
+          <include name="soft_Assertion_Demo"/>
+        </methods>
+      </class> <!-- Testng.SoftAssertions -->
+    </classes>
+  </test> <!-- soft and hard assertion(failed) -->
+</suite> <!-- Failed suite [Assertions] -->

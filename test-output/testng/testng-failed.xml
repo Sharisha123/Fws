@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng]">
+  <test thread-count="5" name="ohrm(failed)">
+    <classes>
+      <class name="Testng.Ohrm">
+        <methods>
+          <include name="login"/>
+          <include name="maxmise"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Testng.Ohrm -->
+    </classes>
+  </test> <!-- ohrm(failed) -->
+</suite> <!-- Failed suite [testng] -->

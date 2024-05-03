@@ -1,0 +1,13 @@
+<suite name="testng">
+	<test name="ohrm">
+		<classes>
+			<class name="Testng.Ohrm">
+				<method exclude="logout"/>
+					
+				
+			</class>
+		</classes>
+		
+	</test>
+	
+</suite>
