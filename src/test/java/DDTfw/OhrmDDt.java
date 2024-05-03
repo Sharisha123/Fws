@@ -36,8 +36,8 @@ public class OhrmDDt {
 	}
 	@Test(enabled = false)
 	public void login() throws InterruptedException {
-//		driver.findElement(By.name("username")).sendKeys(pro.getProperty("userName"));
-//		driver.findElement(By.name("password")).sendKeys(pro.getProperty("Password"));
+		driver.findElement(By.name("username")).sendKeys(pro.getProperty("userName"));
+		driver.findElement(By.name("password")).sendKeys(pro.getProperty("Password"));
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(2000);
 		
